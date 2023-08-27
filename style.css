@@ -1,0 +1,129 @@
+.h1,
+.h2,
+.h3 {
+ font-family: 'Raleway';
+}
+
+.header1 {
+    text-decoration: none;  
+    list-style-type: none;
+    text-transform: uppercase;
+    letter-spacing: .54px;
+    font-weight: 800;
+    line-height: 21px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    color: #4D5AE5;
+}
+  .header2 {
+    text-decoration: none;
+    color: var(--navyblue, #2E2F42);
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;  
+    list-style: none;
+    
+}
+
+  .header3 {
+    text-decoration: none; 
+    font-style: normal;
+    list-style-type: none; 
+    
+    
+}
+.address {
+  text-decoration: none; 
+  font-style: normal;
+  list-style-type: none; 
+}
+
+.box-eff {
+  background-color: var(--navyblue, #2E2F42);
+  color: white;
+  padding: 10px;
+}
+
+.order-button {
+  background-color: #4D5AE5;
+  color: white;
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  background: #4D5AE5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+
+
+.main {
+  text-align: center;
+  
+}
+
+.box-team {
+   list-style-type: none; 
+  
+}
+
+.team,
+.mark,
+.tom,
+.camilla, 
+.daniel {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none; 
+}
+
+.strategy,
+.punctuality,
+.diligence,
+.technologies    {
+  text-decoration: none; 
+  font-style: normal;
+  list-style-type: none; 
+}  
+
+.strategies,
+.punctual,
+.diligent,
+.techno {
+  line-height: 4px;
+  text-decoration: none; 
+  font-style: normal;
+  list-style-type: none; 
+
+}
+
+.stud {
+  color: white;
+
+}
+
+.box-last {
+  background-color: var(--navyblue, #2E2F42);
+  color: white;
+  padding: 10px;
+}
+
+.foot {
+  line-height: 4px;
+  text-decoration: none; 
+  font-style: normal;
+  list-style-type: none; 
+  line-height: 4px;
+
+}
+
+
+
+

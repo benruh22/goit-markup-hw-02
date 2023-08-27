@@ -1,0 +1,136 @@
+.h1,
+.h2,
+.h3 {
+ font-family: 'Raleway';
+}
+
+
+.web {
+  text-decoration: none;  
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: .54px;
+  font-weight: 800;
+  line-height: 21px;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-style: normal;
+  color: #4D5AE5;
+}
+.studio {
+  text-decoration: none;
+  color: var(--navyblue, #2E2F42);
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;  
+  list-style: none;
+}
+.header-list {
+  text-decoration: none;
+  list-style-type: none; 
+  font-style: normal;
+  color: var(--navyblue, #2E2F42);
+  font-family: 'Raleway';
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px; 
+  letter-spacing: 0.32px;
+  
+}
+.address {
+text-decoration: none; 
+font-style: normal;
+list-style-type: none;
+color: var(--navyblue, #2E2F42);
+font-family:'Raleway';
+font-size: 15px;
+font-weight: 500;
+line-height: 20px; 
+letter-spacing: 0.32px;
+}
+
+
+.box-all {
+  background-color: #4D5AE5; 
+  color: white;
+  text-transform: capitalize; 
+  width: 30px;
+  color: var(--white, #FFF);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.64px;
+
+}
+
+.web-site,
+.app,
+.design,
+.marketing {
+  color: var(--iris, #4D5AE5);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  text-decoration: none; 
+  line-height: 20px;
+}
+
+.box-list {
+  background-color:#F4F4FD; 
+  text-transform: capitalize; 
+  width: 80px;
+  list-style: none;
+  box-sizing: border-box;
+  }
+
+.activity {
+  text-decoration: none; 
+  font-style: normal;
+  list-style-type: none; 
+  font-weight: 800;
+ 
+}
+.activities {
+  list-style-type: none; 
+  line-height: 40px;
+}
+
+.foot {
+  line-height: 4px;
+  text-decoration: none; 
+  font-style: normal;
+  list-style-type: none; 
+  line-height: 4px;
+
+
+
+}
+
+
+
+
+.box-foot {
+
+  background-color: var(--navyblue, #2E2F42);
+  color: white;
+  padding: 10px;
+}
+
+.foot2 {
+
+  line-height: 4px;
+  text-decoration: none; 
+  font-style: normal;
+  list-style-type: none; 
+  line-height: 4px;
+
+}
+
