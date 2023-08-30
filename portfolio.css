@@ -1,8 +1,50 @@
-.h1,
-.h2,
-.h3 {
- font-family: 'Raleway';
+* {
+  padding: 0;
+  box-sizing: border-box;
+ 
 }
+
+
+
+body {
+  background-color: rgba(255, 255, 255, 1);
+  max-width: 1440px;
+}
+ul { 
+  list-style: none;
+}
+
+a {
+  text-decoration: none;  
+}
+
+.header-list:hover,
+.address:hover {
+  color: #404bbf;
+} 
+
+
+header {
+  text-decoration: none;  
+  list-style-type: none;
+  text-transform: uppercase;
+  letter-spacing: .54px;
+  font-weight: 800;
+  line-height: 21px;
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-style: normal;
+  color: #4D5AE5;
+  margin: 0;
+  background-color: var(--white);
+  border-bottom: ipx solid var(--cornflower);
+}
+
+
+
+
+
+
 
 
 .web {
