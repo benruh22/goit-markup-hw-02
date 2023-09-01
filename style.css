@@ -11,9 +11,11 @@ ul {
 }
 a {
   text-decoration: none;  
-  color: var(--white);
-  font-size: 18px;
-  font-weight: 800;
+  color: var(--navyblue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 address {
   font-style: normal;
@@ -32,15 +34,17 @@ address {
 --white: #FFFFFF;
 --dairy: #FCFCFC;
 }
-
 .nav-logo {
-  color: var(--navybluemodal)
+  color: var(--navybluemodal);
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 21px;
+  letter-spacing: 0.54px;
+  font-family: 'Raleway';
 }
-
-
-
-.nav-list:hover,
-.address:hover {
+.nav-list-link:hover,
+.address-item-link:hover {
   color: var(--ocean) 
 } 
 .header {
@@ -50,33 +54,26 @@ address {
     font-family: 'Raleway';
     font-size: 18px;
     color: var(--iris);
-    margin: 0;
     background-color: var(--white);
     border-bottom: ipx solid var(--cornflower);
 }
-
-  .nav-list {
-   color: var(--navybluemodal);
-   font-size: 16px;
-   line-height: 24px; 
-   margin: 0;   
-   font-family: 'Roboto';
+.nav-list-link {
+  color: var(--navybluemodal);
+  font-size: 16px;
+  line-height: 24px;
 }
-.address {
+.address-item-link {
   color: var(--slate);
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400px;
-  margin: 0;  
 }
-
-.box-eff {
+.hero {
   background: var(--navyblue);
   width: 1440px;
   height: 600px;
   flex-shrink: 0;
 }
-.order-button {
+.hero-button {
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
@@ -85,17 +82,14 @@ address {
   background: var(--iris);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: var(--white);
-  /* Button Text */
-  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
-.main {
+.hero-title{
   color: var(--white,);
   text-align: center;
-  font-family: 'Roboto';
   font-size: 56px;
   font-weight: 700;
   line-height: 60px; 
@@ -119,11 +113,9 @@ button {
 .diligent,
 .techno {
   color: var(--slate);
-  font-family: Roboto;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
-  margin: 0;  
 }
 .box-last {
   background-color: var(--navyblue);
@@ -147,16 +139,21 @@ color: var(--iris);
   line-height: 21px; 
   letter-spacing: 0.54px;
   text-transform: uppercase;
+   color: var(--navyblue);
 }
-
 .foot {
   color: var(--white);
   font-size: 16px;
   line-height: 24px;
   font-weight: 400px;
-  margin: 0;  
 }
-
-
-
-
+.nav-logos {
+  color: var(--cloud);
+  font-family: 'Raleway';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
