@@ -51,7 +51,6 @@ address {
     letter-spacing: .54px;
     font-weight: 800;
     line-height: 21px;
-    font-family: 'Raleway';
     font-size: 18px;
     color: var(--iris);
     background-color: var(--white);
@@ -65,7 +64,10 @@ address {
 .address-item-link {
   color: var(--slate);
   font-size: 16px;
-  line-height: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 .hero {
   background: var(--navyblue);
@@ -87,7 +89,10 @@ address {
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
-.hero-title{
+.hero-button:hover {
+  background-color: var(--ocean);
+}
+.hero-title {
   color: var(--white,);
   text-align: center;
   font-size: 56px;
@@ -101,22 +106,66 @@ button {
   outline: none;
   cursor: pointer;
 }
-.team,
-.mark,
-.tom,
-.camilla, 
-.daniel {
-  text-align: center;
+.features-item-title {
+  color: var(--navyblue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
-.strategies,
-.punctual,
-.diligent,
-.techno {
+.features-item-description {
   color: var(--slate);
   font-size: 16px;
-  line-height: 24px;
-  font-weight: 400px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
+.team {
+color: var(--navyblue);
+text-align: center;
+font-size: 36px;
+font-weight: 700;
+line-height: 40px; /* 111.111% */
+letter-spacing: 0.72px;
+text-transform: capitalize;
+font-style: normal;
+}
+
+.team-list {
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
+}
+
+.team-list-position {
+  color: var(--slate);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .box-last {
   background-color: var(--navyblue);
   color: var(--white);
@@ -141,11 +190,13 @@ color: var(--iris);
   text-transform: uppercase;
    color: var(--navyblue);
 }
-.foot {
-  color: var(--white);
+.foot-description {
+  color: var(--cloud);
   font-size: 16px;
-  line-height: 24px;
-  font-weight: 400px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
 }
 .nav-logos {
   color: var(--cloud);
